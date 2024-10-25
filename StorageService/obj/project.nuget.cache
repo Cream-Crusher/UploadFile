@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "aDbpB9meXNE=",
+  "success": true,
+  "projectFilePath": "/home/nicita/work/git-hub/PetProject/UploadFile/StorageService/StorageService.csproj",
+  "expectedPackageFiles": [
+    "/home/nicita/.nuget/packages/awssdk.core/3.7.400.30/awssdk.core.3.7.400.30.nupkg.sha512",
+    "/home/nicita/.nuget/packages/awssdk.extensions.netcore.setup/3.7.301/awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512",
+    "/home/nicita/.nuget/packages/awssdk.s3/3.7.404.2/awssdk.s3.3.7.404.2.nupkg.sha512",
+    "/home/nicita/.nuget/packages/communitytoolkit.highperformance/8.2.2/communitytoolkit.highperformance.8.2.2.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.0/microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/nicita/.nuget/packages/minio/6.0.3/minio.6.0.3.nupkg.sha512",
+    "/home/nicita/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/system.reactive/6.0.1/system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

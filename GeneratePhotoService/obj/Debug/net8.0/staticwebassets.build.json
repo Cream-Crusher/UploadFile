@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dYu3HT2by35gnjyuIoTkIo3AOlvnfknYtY2kB/eKjCQ=",
+  "Source": "GeneratePhotoService",
+  "BasePath": "_content/GeneratePhotoService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

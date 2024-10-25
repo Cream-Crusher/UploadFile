@@ -1,0 +1,13 @@
+services:
+
+  minio-server:
+    image: minio/minio
+    container_name: mino-server
+  
+  minio-client:
+    image: minio/mc
+    container_name: minio-client
+
+
+volumes:
+  minio_storage: {}

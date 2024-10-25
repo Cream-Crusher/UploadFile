@@ -1,0 +1,33 @@
+services:
+  minio-server:
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_storage:/data
+    environment:
+      MINIO_ACCESS_KEY: "test_access_key"
+      MINIO_SECRET_KEY: "test_secret_key"
+    command: server --console-address ":9001" /data
+
+
+#  minio-client:
+#    image: minio/mc
+#    # insure that the server container is running before building the client
+#    depends_on:
+#      - minio-server
+#    entrypoint: >
+#      /bin/sh -c "
+#      /usr/bin/mc config;
+#      /usr/bin/mc config host add myminio http://minio-server:9000 ${MINIO_ACCESS_KEY} ${MINIO_SECRET_KEY};
+#      /usr/bin/mc mb myminio/test-bucket;
+#      echo 'my content' > myfile.txt;
+#      /usr/bin/mc cp myfile.txt myminio/test-bucket;
+#      exit 0;
+#      "
+
+
+networks:
+  traefik-proxy:
+    name: traefik-proxy
+    external: true

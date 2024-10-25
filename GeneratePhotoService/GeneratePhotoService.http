@@ -1,0 +1,6 @@
+@GeneratePhotoService_HostAddress = http://localhost:5144
+
+GET {{GeneratePhotoService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
