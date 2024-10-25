@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "urAdOYteovU=",
+  "success": true,
+  "projectFilePath": "/home/nicita/work/git-hub/c#/Notes.Backend/Notes.Application/Notes.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/nicita/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/nicita/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
