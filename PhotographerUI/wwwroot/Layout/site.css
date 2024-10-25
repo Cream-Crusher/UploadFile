@@ -1,0 +1,1471 @@
+﻿BODY.zelbikeChrono
+{
+    overflow-y: scroll;
+    font-size: 14px;
+}
+
+BODY.zelbikeChrono .btn
+{
+    font-size: 14px;
+}
+
+BODY.zelbikeChrono.home
+{
+    padding-bottom: 0px;
+}
+
+BODY.zelbikeChrono.home .rentEquimentBlock
+{
+    margin-top: 0px;
+    padding-top: 30px;
+    background-image: url('/Resources/Layout/Images/Pages/index-rent.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 600px;
+}
+
+
+@media (min-width: 540px)
+{
+    BODY.zelbikeChrono.home .rentEquimentBlock
+    {
+    }
+}
+
+@media (min-width: 768px)
+{
+    BODY.zelbikeChrono.home .rentEquimentBlock
+    {
+        background-position: calc(100% + 299px) top;
+    }
+}
+
+@media (min-width: 1084px)
+{
+    BODY.zelbikeChrono.home .rentEquimentBlock
+    {
+        background-position: right top;
+    }
+}
+
+
+BODY.zelbikeChrono.backend
+{
+    padding-bottom: 150px;
+}
+
+
+BODY.zelbikeChrono .dropdown-menu li a
+{
+    height: auto;
+    min-height: 32px;
+}
+
+
+.zelbikeChrono .side-nav a
+{
+    border-radius: 8px;
+    display: grid;
+    grid-template-areas: "icon text trail";
+    grid-template-columns: 42px minmax(0, auto) min-content;
+    align-items: center;
+}
+
+.zelbikeChrono .side-nav a img:first-child
+{
+    grid-area: icon;
+    max-height: 18px;
+    justify-self: center;
+}
+
+.zelbikeChrono .side-nav a span
+{
+    grid-area: text;
+}
+
+.zelbikeChrono .side-nav a:hover
+{
+    background-color: #f0f0f0;
+}
+.zelbikeChrono .side-nav a.active
+{
+    background-color: #f0f0f0;
+}
+
+.zelbikeChrono .side-nav + .side-nav
+{
+}
+
+.zelbikeChrono .breadcrumb a
+{
+    color: #0078D7;
+    text-decoration: underline;
+}
+
+
+.zelbikeChrono .panel.active,
+.zelbikeChrono .panel.panel-default.active
+{
+    border-width: 3px;
+    border-color: #0078D7;
+}
+
+.zelbikeChrono .panel.selectable
+{
+    cursor: pointer;
+}
+
+.zelbikeChrono .panel.selectable:hover
+{
+    border-color: #0078D7;
+}
+
+.zelbikeChrono input.form-control,
+.zelbikeChrono textarea.form-control
+{
+    margin-bottom: 4px;
+}
+
+
+
+.zelbikeChrono .breadcrumb > li + li:before
+{
+    color: #d0d0d0;
+}
+
+.zelbikeChrono a[name],
+.zelbikeChrono a[name]:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.zelbikeChrono .no-wrap
+{
+    white-space: nowrap;
+}
+
+.zelbikeChrono .label-success
+{
+    background-color: #0bb700;
+}
+
+
+.zelbikeChrono .label-boost
+{
+    background-color: #8500ff;
+}
+
+
+.zelbikeChrono .table.table-lined TD,
+.zelbikeChrono .table.table-lined TH
+{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.zelbikeChrono .nv-file-over
+{
+    border: 9px dotted #adadad !important;
+}
+
+
+.zelbikeChrono .table.table-densed TD,
+.zelbikeChrono .table.table-densed TH
+{
+    line-height: 0.7;
+}
+
+
+.zelbikeChrono .label-warning
+{
+    background-color: #ffa500;
+}
+
+.zelbikeChrono .link-tabs
+{
+    line-height: 40px;
+}
+
+.zelbikeChrono .link-tab-regular
+{
+    padding: 6px 18px;
+    border-radius: 12px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.zelbikeChrono .link-tab-selected
+{
+    background-color: #ffc800;
+    padding: 6px 18px;
+    border-radius: 12px;
+    color: #000;
+}
+
+.jumbotron h1
+{
+    font-size: 40px;
+}
+
+.welcomeJumbo
+{
+    height: 500px;
+    text-shadow: -2px 1px 20px black;
+    background-image: url(Images/Pages/index-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcomeJumbo .jumbotron-content
+{
+    padding: 0 20px;
+}
+
+@media (min-width: 768px)
+{
+    .jumbotron h1
+    {
+        font-size: 80px;
+        font-weight: 200;
+        font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", "Arial", sans-serif;
+    }
+
+
+    .welcomeJumbo
+    {
+        height: 1091px;
+    }
+}
+
+.zelbikeChrono .breadcrumb > li > a + a:before
+{
+    color: #d0d0d0;
+    content: "&";
+    display: inline-block;
+    padding: 0 4px 0 1px;
+}
+
+
+.zelbikeChrono .btn-lg
+{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.zelbikeChrono .dropdown-menu li a
+{
+    padding-right: 12px;
+}
+
+.zelbikeChrono .well-white
+{
+    background-color: #fff;
+}
+
+
+.zelbikeChrono h4 + hr
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.zelbikeChrono form .has-error > label
+{
+    color: #D02E00;
+    font-weight: bold;
+}
+
+.zelbikeChrono .well.well-cream
+{
+    background-color: #f3f1ed;
+}
+
+
+.zelbikeChrono .label-warning
+{
+    background-color: #ffb100;
+    color: #000;
+}
+
+.zelbikeChrono .label-warning-light
+{
+    background-color: #ffdf97;
+    color: #000;
+}
+
+
+
+
+.zelbikeChrono .filters
+{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.zelbikeChrono .filters > * + *
+{
+    margin-left: 18px;
+}
+
+.zelbikeChrono .striked
+{
+    text-decoration: line-through;
+}
+
+/***********************/
+
+.zelbikeChrono .item-bought
+{
+    color: #4e4e4e;
+    font-size: smaller;
+    border: 1px solid #4e4e4e;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+.zelbikeChrono .source-site
+{
+    color: #4e4e4e;
+    font-size: smaller;
+    border: 1px solid #4e4e4e;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+.zelbikeChrono .source-express
+{
+    color: #e03fc4;
+    font-size: smaller;
+    border: 1px solid #e03fc4;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+.zelbikeChrono .source-excel
+{
+    color: #08af08;
+    font-size: smaller;
+    border: 1px solid #08af08;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+/***********************/
+
+.zelbikeChrono .order-paid
+{
+    color: #08af08;
+    font-size: smaller;
+    border: 1px solid #08af08;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+.zelbikeChrono .order-created
+{
+    color: #838383;
+    font-size: smaller;
+    border: 1px solid #838383;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+
+.zelbikeChrono .order-refund
+{
+    color: #af0808;
+    font-size: smaller;
+    border: 1px solid #af0808;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+
+/***********************/
+
+.zelbikeChrono .message-box
+{
+    display: inline-block;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.zelbikeChrono .message-box.message-box-blue
+{
+    border: #009ed7 1px solid;
+    color: #009ed7
+}
+
+.zelbikeChrono .message-box.message-box-green
+{
+    border: #339c18 1px solid;
+    color: #339c18
+}
+
+/***********************/
+.zelbikeChrono .pagePreview
+{
+    margin-bottom: 40px;
+}
+
+.zelbikeChrono .pagePreview .page
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: #808080 0px 6px 20px 0px;
+}
+
+
+.zelbikeChrono .pagePreview .page .banner
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.zelbikeChrono .pagePreview .page .banner .name
+{
+    position: absolute;
+    letter-spacing: -0.01em;
+    font-weight: 200;
+    font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", "Arial", sans-serif;
+}
+
+.zelbikeChrono .pagePreview .page .banner .name .n1
+{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.zelbikeChrono .pagePreview .page .banner .name .n2
+{
+    font-size: 12px;
+}
+
+/***********************/
+
+.zelbikeChrono .back-video
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.zelbikeChrono .back-video > VIDEO
+{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.6;
+}
+
+.zelbikeChrono .back-video.dimmed > VIDEO
+{
+    opacity: 0.05;
+}
+
+.zelbikeChrono .jumbotron
+{
+    height: 400px;
+}
+
+.zelbikeChrono .jumbotron.theme-on-img-dark
+{
+    background-color: #4e4e4e;
+}
+
+.zelbikeChrono .jumbotron.theme-on-img-light
+{
+    background-color: #ececec;
+}
+
+.zelbikeChrono .jumbotron.small
+{
+}
+
+.zelbikeChrono .panel-transparent
+{
+    background-color: transparent; /* rgba(255, 255, 255, 0.55);*/
+}
+
+.zelbikeChrono a .panel,
+.zelbikeChrono a .panel:hover
+{
+    text-decoration: none !important;
+    display: inline-block;
+    color: #000;
+}
+
+.zelbikeChrono .panel-cream
+{
+    background-color: #f3f1ed;
+}
+
+.zelbikeChrono .panel-sky
+{
+    background-color: rgba(0, 120, 215, 0.1);
+}
+
+.zelbikeChrono .jumbotron.theme-on-img-dark .jumbotron-content.dark-50
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 13px 13px 13px 13px;
+    margin-top: 13px;
+    margin-left: -13px;
+    margin-right: -10px;
+}
+
+.zelbikeChrono .jumbotron.theme-on-img-dark .jumbotron-content.dark-50 h1
+{
+    margin-top: 3px;
+}
+
+.zelbikeChrono .navbar-brand
+{
+    color: #A6A6A6;
+}
+
+.zelbikeChrono .progress-ring.progress-centered
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zelbikeChrono .withBorderBelow > TD,
+.zelbikeChrono TD.withBorderBelow
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.zelbikeChrono .navbar .avatar
+{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+
+.zelbikeChrono .list-items .btn
+{
+    margin-top: 0;
+}
+
+.zelbikeChrono .list-items-row.success
+{
+    margin-top: 0;
+}
+
+.zelbikeChrono .form-date .form-date-controls
+{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.zelbikeChrono .form-date .form-day
+{
+    width: 100px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.zelbikeChrono .form-date .form-month
+{
+    width: 150px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.zelbikeChrono .form-date .form-year
+{
+    width: 100px;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 0px;
+}
+
+.zelbikeChrono .has-error.text-error label span
+{
+    color: #D02E00;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 0px;
+}
+
+.zelbikeChrono .text-danger
+{
+    color: #D02E00;
+}
+
+.zelbikeChrono .panel.panel-default
+{
+    border-color: #9E9E9E;
+}
+
+.zelbikeChrono .panel.panel-muted
+{
+    border-color: #E0E0E0;
+}
+
+.zelbikeChrono .panel.panel-payments
+{
+    background-image: url('Images/Backgrounds/linen.png');
+}
+
+.zelbikeChrono .panel.panel-payments .panel-body
+{
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+}
+
+.zelbikeChrono .dropdown-menu .heading
+{
+    color: #999;
+    font-size: 11px;
+    padding-left: 12px;
+    background-color: inherit;
+}
+
+.zelbikeChrono .dropdown-menu li + .heading
+{
+    margin-top: 20px;
+}
+
+.zelbikeChrono .nav-tabs > li.active > a
+{
+    font-weight: 400;
+}
+
+.zelbikeChrono .slower
+{
+    color: #ff4500;
+}
+
+.zelbikeChrono .faster
+{
+    color: #00aa00;
+}
+
+/******************/
+
+.zelbikeChrono H1 > .btn,
+.zelbikeChrono H2 > .btn,
+.zelbikeChrono H3 > .btn
+{
+    display: inline;
+}
+
+.zelbikeChrono .btn-short
+{
+    min-width: 10px;
+}
+
+.zelbikeChrono .btn .glyph
+{
+    margin-top: -3px;
+}
+
+/******************/
+
+.zelbikeChrono .btn-smoke
+{
+    color: #555;
+    background-color: #f7f7f7;
+    border-color: #9e9e9e;
+}
+
+.zelbikeChrono .btn-smoke:hover,
+.zelbikeChrono .btn-smoke:focus,
+.zelbikeChrono .btn-smoke.focus,
+.zelbikeChrono .btn-smoke:active,
+.zelbikeChrono .btn-smoke.active,
+.zelbikeChrono .open > .btn-smoke.dropdown-toggle
+{
+    color: #555;
+    background-color: #f0f0f0;
+    border-color: #9e9e9e;
+    box-shadow: none;
+}
+
+.zelbikeChrono .btn-smoke:active,
+.zelbikeChrono .btn-smoke.active,
+.zelbikeChrono .open > .btn-smoke.dropdown-toggle
+{
+    background-color: #e0e0e0;
+    background-image: none;
+    box-shadow: none;
+}
+
+.zelbikeChrono .btn-smoke.disabled,
+.zelbikeChrono .btn-smoke.disabled:hover,
+.zelbikeChrono .btn-smoke.disabled:focus,
+.zelbikeChrono .btn-smoke.disabled.focus,
+.zelbikeChrono .btn-smoke.disabled:active,
+.zelbikeChrono .btn-smoke.disabled.active,
+.zelbikeChrono .btn-smoke[disabled],
+.zelbikeChrono .btn-smoke[disabled]:hover,
+.zelbikeChrono .btn-smoke[disabled]:focus,
+.zelbikeChrono .btn-smoke[disabled].focus,
+.zelbikeChrono .btn-smoke[disabled]:active,
+.zelbikeChrono .btn-smoke[disabled].active,
+.zelbikeChrono fieldset[disabled] .btn-smoke,
+.zelbikeChrono fieldset[disabled] .btn-smoke:hover,
+.zelbikeChrono fieldset[disabled] .btn-smoke:focus,
+.zelbikeChrono fieldset[disabled] .btn-smoke.focus,
+.zelbikeChrono fieldset[disabled] .btn-smoke:active,
+.zelbikeChrono fieldset[disabled] .btn-smoke.active
+{
+    background-color: #d0d0d0;
+    border-color: #9e9e9e;
+    box-shadow: none;
+}
+
+.zelbikeChrono .btn-smoke .badge
+{
+    color: #f9f9f9;
+    background-color: #FFFFFF;
+}
+
+/******************/
+
+.zelbikeChrono .btn-google
+{
+    color: #FFFFFF;
+    background-color: #D70000;
+    border-color: #D70000;
+}
+
+.zelbikeChrono .btn-google:hover,
+.zelbikeChrono .btn-google:focus,
+.zelbikeChrono .btn-google.focus,
+.zelbikeChrono .btn-google:active,
+.zelbikeChrono .btn-google.active,
+.zelbikeChrono .open > .btn-google.dropdown-toggle
+{
+    color: #FFFFFF;
+    background-color: #BD0000;
+    border-color: #BD0000;
+}
+
+.zelbikeChrono .btn-google:active,
+.zelbikeChrono .btn-google.active,
+.zelbikeChrono .open > .btn-google.dropdown-toggle
+{
+    background-image: none;
+}
+
+.zelbikeChrono .btn-google.disabled,
+.zelbikeChrono .btn-google.disabled:hover,
+.zelbikeChrono .btn-google.disabled:focus,
+.zelbikeChrono .btn-google.disabled.focus,
+.zelbikeChrono .btn-google.disabled:active,
+.zelbikeChrono .btn-google.disabled.active,
+.zelbikeChrono .btn-google[disabled],
+.zelbikeChrono .btn-google[disabled]:hover,
+.zelbikeChrono .btn-google[disabled]:focus,
+.zelbikeChrono .btn-google[disabled].focus,
+.zelbikeChrono .btn-google[disabled]:active,
+.zelbikeChrono .btn-google[disabled].active,
+.zelbikeChrono fieldset[disabled] .btn-google,
+.zelbikeChrono fieldset[disabled] .btn-google:hover,
+.zelbikeChrono fieldset[disabled] .btn-google:focus,
+.zelbikeChrono fieldset[disabled] .btn-google.focus,
+.zelbikeChrono fieldset[disabled] .btn-google:active,
+.zelbikeChrono fieldset[disabled] .btn-google.active
+{
+    background-color: #D70000;
+    border-color: #D70000;
+}
+
+.zelbikeChrono .btn-google .badge
+{
+    color: #D70000;
+    background-color: #FFFFFF;
+}
+
+/******************/
+
+/******************/
+
+.zelbikeChrono .btn-mailru
+{
+    color: #fff;
+    background-color: #62bb32;
+    border-color: #62bb32;
+}
+
+.zelbikeChrono .btn-mailru:hover,
+.zelbikeChrono .btn-mailru:focus,
+.zelbikeChrono .btn-mailru.focus,
+.zelbikeChrono .btn-mailru:active,
+.zelbikeChrono .btn-mailru.active,
+.zelbikeChrono .open > .btn-mailru.dropdown-toggle
+{
+    color: #FFFFFF;
+    background-color: #62bb32;
+    border-color: #62bb32;
+}
+
+.zelbikeChrono .btn-mailru.disabled,
+.zelbikeChrono .btn-mailru.disabled:hover,
+.zelbikeChrono .btn-mailru.disabled:focus,
+.zelbikeChrono .btn-mailru.disabled.focus,
+.zelbikeChrono .btn-mailru.disabled:active,
+.zelbikeChrono .btn-mailru.disabled.active,
+.zelbikeChrono .btn-mailru[disabled],
+.zelbikeChrono .btn-mailru[disabled]:hover,
+.zelbikeChrono .btn-mailru[disabled]:focus,
+.zelbikeChrono .btn-mailru[disabled].focus,
+.zelbikeChrono .btn-mailru[disabled]:active,
+.zelbikeChrono .btn-mailru[disabled].active,
+.zelbikeChrono fieldset[disabled] .btn-mailru,
+.zelbikeChrono fieldset[disabled] .btn-mailru:hover,
+.zelbikeChrono fieldset[disabled] .btn-mailru:focus,
+.zelbikeChrono fieldset[disabled] .btn-mailru.focus,
+.zelbikeChrono fieldset[disabled] .btn-mailru:active,
+.zelbikeChrono fieldset[disabled] .btn-mailru.active
+{
+    background-color: #62bb32;
+    border-color: #62bb32;
+}
+
+.zelbikeChrono .btn-mailru .badge
+{
+    background-color: #62bb32;
+    background-color: #FFFFFF;
+}
+
+/******************/
+
+.zelbikeChrono .btn-yandex
+{
+    color: #000;
+    background-color: #ffd100;
+    border-color: #ffd100;
+}
+
+.zelbikeChrono .btn-yandex:hover,
+.zelbikeChrono .btn-yandex:focus,
+.zelbikeChrono .btn-yandex.focus,
+.zelbikeChrono .btn-yandex:active,
+.zelbikeChrono .btn-yandex.active,
+.zelbikeChrono .open > .btn-yandex.dropdown-toggle
+{
+    color: #000;
+    background-color: #ffd100;
+    border-color: #ffd100;
+}
+
+.zelbikeChrono .btn-yandex.disabled,
+.zelbikeChrono .btn-yandex.disabled:hover,
+.zelbikeChrono .btn-yandex.disabled:focus,
+.zelbikeChrono .btn-yandex.disabled.focus,
+.zelbikeChrono .btn-yandex.disabled:active,
+.zelbikeChrono .btn-yandex.disabled.active,
+.zelbikeChrono .btn-yandex[disabled],
+.zelbikeChrono .btn-yandex[disabled]:hover,
+.zelbikeChrono .btn-yandex[disabled]:focus,
+.zelbikeChrono .btn-yandex[disabled].focus,
+.zelbikeChrono .btn-yandex[disabled]:active,
+.zelbikeChrono .btn-yandex[disabled].active,
+.zelbikeChrono fieldset[disabled] .btn-yandex,
+.zelbikeChrono fieldset[disabled] .btn-yandex:hover,
+.zelbikeChrono fieldset[disabled] .btn-yandex:focus,
+.zelbikeChrono fieldset[disabled] .btn-yandex.focus,
+.zelbikeChrono fieldset[disabled] .btn-yandex:active,
+.zelbikeChrono fieldset[disabled] .btn-yandex.active
+{
+    background-color: #F4E453;
+    border-color: #F4E453;
+}
+
+.zelbikeChrono .btn-yandex .badge
+{
+    background-color: #F4E453;
+    background-color: #000;
+}
+
+/******************/
+
+.btn-facebook
+{
+    color: #FFFFFF;
+    background-color: #0078D7;
+    border-color: #0078D7;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook.focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open > .btn-facebook.dropdown-toggle
+{
+    color: #FFFFFF;
+    background-color: #005ca4;
+    border-color: #00569a;
+}
+
+.btn-facebook:active,
+.btn-facebook.active,
+.open > .btn-facebook.dropdown-toggle
+{
+    background-image: none;
+}
+
+.btn-facebook.disabled,
+.btn-facebook.disabled:hover,
+.btn-facebook.disabled:focus,
+.btn-facebook.disabled.focus,
+.btn-facebook.disabled:active,
+.btn-facebook.disabled.active,
+.btn-facebook[disabled],
+.btn-facebook[disabled]:hover,
+.btn-facebook[disabled]:focus,
+.btn-facebook[disabled].focus,
+.btn-facebook[disabled]:active,
+.btn-facebook[disabled].active,
+fieldset[disabled] .btn-facebook,
+fieldset[disabled] .btn-facebook:hover,
+fieldset[disabled] .btn-facebook:focus,
+fieldset[disabled] .btn-facebook.focus,
+fieldset[disabled] .btn-facebook:active,
+fieldset[disabled] .btn-facebook.active
+{
+    background-color: #0078D7;
+    border-color: #0078D7;
+}
+
+.btn-facebook .badge
+{
+    color: #0078D7;
+    background-color: #FFFFFF;
+}
+
+/******************/
+
+.btn-vkontakte
+{
+    color: #FFFFFF;
+    background-color: #009ED7;
+    border-color: #009ED7;
+}
+
+.btn-vkontakte:hover,
+.btn-vkontakte:focus,
+.btn-vkontakte.focus,
+.btn-vkontakte:active,
+.btn-vkontakte.active,
+.open > .btn-vkontakte.dropdown-toggle
+{
+    color: #FFFFFF;
+    background-color: #0094BD;
+    border-color: #0094BD;
+}
+
+.btn-vkontakte:active,
+.btn-vkontakte.active,
+.open > .btn-vkontakte.dropdown-toggle
+{
+    background-image: none;
+}
+
+.btn-vkontakte.disabled,
+.btn-vkontakte.disabled:hover,
+.btn-vkontakte.disabled:focus,
+.btn-vkontakte.disabled.focus,
+.btn-vkontakte.disabled:active,
+.btn-vkontakte.disabled.active,
+.btn-vkontakte[disabled],
+.btn-vkontakte[disabled]:hover,
+.btn-vkontakte[disabled]:focus,
+.btn-vkontakte[disabled].focus,
+.btn-vkontakte[disabled]:active,
+.btn-vkontakte[disabled].active,
+fieldset[disabled] .btn-vkontakte,
+fieldset[disabled] .btn-vkontakte:hover,
+fieldset[disabled] .btn-vkontakte:focus,
+fieldset[disabled] .btn-vkontakte.focus,
+fieldset[disabled] .btn-vkontakte:active,
+fieldset[disabled] .btn-vkontakte.active
+{
+    background-color: #009ED7;
+    border-color: #009ED7;
+}
+
+.btn-vkontakte .badge
+{
+    color: #009ED7;
+    background-color: #FFFFFF;
+}
+/******************/
+
+.btn-gold
+{
+    color: #FFFFFF;
+    background-color: #F9BA48;
+    border-color: #F9BA48;
+}
+
+.btn-gold:hover,
+.btn-gold:focus,
+.btn-gold.focus,
+.btn-gold:active,
+.btn-gold.active,
+.open > .btn-gold.dropdown-toggle
+{
+    color: #FFFFFF;
+    background-color: #F9BA48;
+    border-color: #F9BA48;
+}
+
+.btn-gold:active,
+.btn-gold.active,
+.open > .btn-gold.dropdown-toggle
+{
+    background-image: none;
+}
+
+.btn-gold.disabled,
+.btn-gold.disabled:hover,
+.btn-gold.disabled:focus,
+.btn-gold.disabled.focus,
+.btn-gold.disabled:active,
+.btn-gold.disabled.active,
+.btn-gold[disabled],
+.btn-gold[disabled]:hover,
+.btn-gold[disabled]:focus,
+.btn-gold[disabled].focus,
+.btn-gold[disabled]:active,
+.btn-gold[disabled].active,
+fieldset[disabled] .btn-gold,
+fieldset[disabled] .btn-gold:hover,
+fieldset[disabled] .btn-gold:focus,
+fieldset[disabled] .btn-gold.focus,
+fieldset[disabled] .btn-gold:active,
+fieldset[disabled] .btn-gold.active
+{
+    background-color: #F9BA48;
+    border-color: #F9BA48;
+}
+
+.btn-gold .badge
+{
+    color: #F9BA48;
+    background-color: #FFFFFF;
+}
+
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch):active,
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-light:active,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch):active,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-light:active
+{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch).active,
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-light.active,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).active,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-light.active
+{
+    color: #000000;
+    border-color: #0278d7;
+    box-shadow: 0px 0px 0px 1px #0278d7 inset;
+    background-color: #e0f1ff;
+}
+
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch).active:hover,
+.zelbikeChrono .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-light.active:hover,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).active:hover,
+.zelbikeChrono .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-light.active:hover
+{
+    color: #000000;
+    border-color: #0278d7;
+    box-shadow: 0px 0px 0px 1px #0278d7 inset;
+}
+
+
+
+
+
+
+.zelbikeChrono .workflowProgress
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    color: #849397;
+    counter-reset: step;
+}
+
+.zelbikeChrono .workflowProgress > li
+{
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    font-size: 14px;
+    counter-increment: step;
+}
+
+.zelbikeChrono .workflowProgress > li:before
+{
+    content: counter(step);
+    display: block;
+    margin: 0 auto;
+    background: #DFE3E4;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    margin-bottom: 0.25em;
+    line-height: 34px;
+    border-radius: 100%;
+    position: relative;
+    border: 4px solid #dfe3e4;
+    z-index: 1000;
+}
+
+.zelbikeChrono .workflowProgress > li:after
+{
+    content: '';
+    position: absolute;
+    display: block;
+    background: #DFE3E4;
+    width: 100%;
+    height: 0.5em;
+    top: 1.25em;
+    left: 50%;
+    margin-left: 1.5em\9;
+    z-index: -1;
+}
+
+.zelbikeChrono .workflowProgress > li:last-child:after
+{
+    display: none;
+}
+
+.zelbikeChrono .workflowProgress > li.is-complete
+{
+    color: #2ECC71;
+}
+
+.zelbikeChrono .workflowProgress > li.is-complete:before,
+.zelbikeChrono .workflowProgress > li.is-complete:after
+{
+    color: #FFF;
+    border-color: #2ECC71;
+    background: #2ECC71;
+}
+
+.zelbikeChrono .workflowProgress > li.is-active
+{
+    color: #000000;
+}
+
+.zelbikeChrono .workflowProgress > li.is-active:before
+{
+    color: #2ECC71;
+    border-color: #2ECC71;
+    font-weight: bold;
+    background: #FFF;
+}
+
+.zelbikeChrono .workflowProgress--medium
+{
+    font-size: 1.5em;
+}
+
+.zelbikeChrono .workflowProgress--large
+{
+    font-size: 2em;
+}
+
+.zelbikeChrono .workflowProgress
+{
+    margin-bottom: 3em;
+}
+
+
+.zelbikeChrono .tileRow
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.zelbikeChrono .tile
+{
+    border: 1px solid #f0f0f0;
+    width: 222px;
+    height: 100px;
+    padding: 4px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    position: relative;
+}
+
+.zelbikeChrono .tile + .tile
+{
+}
+
+.zelbikeChrono .tile .title
+{
+    color: #9E9E9E;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.zelbikeChrono .tile .value
+{
+    text-align: center;
+    font-size: 26px;
+}
+
+.zelbikeChrono .tile .footer
+{
+    right: 5px;
+    bottom: 2px;
+    position: absolute;
+}
+
+
+
+.zelbikeChrono .tile.full
+{
+    border: 2px solid #d4d4d4;
+    background-color: #d4d4d4;
+    cursor: pointer;
+}
+
+.zelbikeChrono .tile.green
+{
+    border: 2px solid #62bb32;
+    color: #62bb32;
+}
+
+.zelbikeChrono .tile.green .title
+{
+    color: #62bb32;
+}
+
+.zelbikeChrono .tile.green.full
+{
+    border: 2px solid #62bb32;
+    background-color: #62bb32;
+    color: #fff;
+}
+
+.zelbikeChrono .tile.green.full .title
+{
+    color: #fff;
+}
+
+
+.zelbikeChrono .tile.blue
+{
+    border: 2px solid #009ed7;
+    color: #009ed7;
+}
+
+.zelbikeChrono .tile.blue .title
+{
+    color: #009ed7;
+}
+
+.zelbikeChrono .tile.blue.full
+{
+    border: 2px solid #009ed7;
+    background-color: #009ed7; /* #32b7bb */
+    color: #fff;
+}
+
+.zelbikeChrono .tile.blue.full .title
+{
+    color: #fff;
+}
+
+
+.zelbikeChrono .tile.magenta.full
+{
+    border: 2px solid #e03fc4;
+    background-color: #e03fc4; /* #32b7bb */
+    color: #fff;
+}
+
+.zelbikeChrono .tile.magenta.full .title
+{
+    color: #fff;
+}
+
+.zelbikeChrono .tile.red
+{
+    border: 2px solid #D02E00;
+    color: #D02E00;
+}
+
+.zelbikeChrono .tile.red .title
+{
+    color: #D02E00;
+}
+
+.zelbikeChrono .tile.yellow
+{
+    border: 2px solid #F9BA48;
+    color: #F9BA48;
+}
+
+.zelbikeChrono .tile.yellow .title
+{
+    color: #F9BA48;
+}
+
+
+.pulse
+{
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.pulse:hover
+{
+    animation: none;
+}
+
+@-webkit-keyframes pulse
+{
+    0%
+    {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+
+    70%
+    {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+
+    100%
+    {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+
+@keyframes pulse
+{
+    0%
+    {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+
+    70%
+    {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+
+    100%
+    {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+
+
+.uploadBox
+{
+    overflow-y: auto;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 370px;
+    display: block;
+    border: 9px solid #e9e9e9;
+    border-radius: 10px;
+}
+
+.uploadBox .queue
+{
+    align-self: center;
+    justify-self: center;
+}
+
+.uploadBox .uploadEntry
+{
+    font-size: 12px;
+}
+
+.photoContainer
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.photoContainer .photo
+{
+    display: inline-block;
+}
+
+.photoContainer .photo .controls
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photoContainer .photo .controls a
+{
+    color: #000 !important;
+    font-size: 12px;
+}
+
+
+.photoContainer .photo .controls .state-icon
+{
+    opacity: 0.7;
+    border: 1px solid #000;
+    border-radius: 20px;
+    max-height: 16px;
+                   
+}
+
+.photoContainer .photo .controls img
+{
+    max-height: 18px;
+}
+
+.photoContainer .photo .numbers
+{
+    font-size: 12px;
+    color: #777 !important;
+}

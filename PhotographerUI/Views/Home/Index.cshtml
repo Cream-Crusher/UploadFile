@@ -1,0 +1,88 @@
+﻿@using LimetimePhotoUploadUI.Models
+@{
+    
+}
+
+@if (this.ViewBag.Photographer == null)
+{
+    <h3>Нужно перейти по ссылке</h3>
+    <p>Для загрузки фотографий воспользуйтесь ссылкой, которую вам прислал организатор соревнования</p>
+    return;
+}
+
+
+<script>
+
+        var dataObject = @Html.Json((object)this.ViewBag.DataObject);
+        var urls = {
+        delete: '@Html.Raw(@Url.Action("Delete", new { accessKey = this.ViewBag.Photographer.AccessKey, photoGuid ="PHOTO.GUID" }))',
+        upload: '@Html.Raw(Url.Action("Upload", new {accessKey = this.ViewBag.Photographer.AccessKey }))'
+        }
+            
+    </script>
+<script src="~/Javascripts/shared.js"></script>
+<script src="~/Javascripts/moment.js"></script>
+<script src="~/Javascripts/angular.min.js"></script>
+<script src="~/Javascripts/angular-ng-draggable.js"></script>
+<script src="~/Javascripts/angular-file-upload.min.js"></script>
+<script src="~/Javascripts/photosApp.js"></script>
+
+<div ng-app="photosApp" ng-controller="photosController" class="container print-inline raceRegistrationsApp" style="display: none;" ng-style="{display: isLoaded ? '' : 'none' }">
+    
+    <h3>@this.ViewBag.Photographer.RaceStage.Race.DisplayNamePrimary</h3>
+    <p class="lead">Загружено фото: {{photos.length}}</p>
+    <p class="lead">Обработано: {{findPhotosOfState(3).length}}</p>
+    <br/>
+    <div class="list">
+        
+        @if (this.ViewBag.Photographer.EditableTillDate == null || this.ViewBag.Photographer.EditableTillDate > DateTime.UtcNow)
+        {
+            <div nv-file-over nv-file-out nv-file-drop uploader="uploader" class="uploadBox" style="">
+                <div ng-if="uploader.queue.length > 5">
+                    <b>В очереди: {{uploader.queue.length}}</b>
+                </div>
+                <div ng-repeat="entry in uploader.queue" class="uploadEntry">
+                    {{entry.file.name}}
+                </div>
+                <div ng-if="uploader.queue.length == 0" class="queue">
+                    <div style="text-align: center; ">
+                        <br />
+                        Перетащите сюда фотографии для загрузки<br />
+                        <img src="~/layout/images/upload-cloud-grey-128.png" />
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+        }
+        
+        <div class="row">
+            <div class="col-md-8 photoContainer" ng-repeat="photo in photos" >
+                <div class="photo">
+                    <img ng-src="{{photo.urlThumbnail}}" alt="">
+                    <div class="controls">
+                        <a href="{{photo.urlFull}}" target="_blank" style="cursor: pointer;">Полная</a>
+                        <a href="{{photo.urlPreview}}" target="_blank" style="cursor: pointer;">Превью</a>
+                        <a href="{{photo.urlOpenThumbnail}}" target="_blank" style="cursor: pointer;">Открытая малая</a>
+                        <img class="state-icon" ng-if="photo.stateId == 1" title="В очереди на обработку" src="~/layout/images/queue48.png" />
+                        <img class="state-icon" ng-if="photo.stateId == 3" title="Обработана" src="~/layout/images/ok48.png" />
+                        @if (this.ViewBag.Photographer.EditableTillDate == null || this.ViewBag.Photographer.EditableTillDate > DateTime.UtcNow)
+                        {
+                            <a ng-click="deletePhoto(photo)" style="cursor: pointer;">
+                                <span ng-if="photo.deleting">Удалем...</span>
+                                <img src="~/layout/images/delete48.png"/>
+                            </a>                            
+                        }
+                        else
+                        {
+                            <span>&nbsp;</span>
+                        }
+                        
+                    </div>
+                    <div class="numbers">{{photo.registrationNumbers}}&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
